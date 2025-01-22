@@ -86,5 +86,5 @@ python3 script.py
 - **API Errors**: If there are issues with the API requests (e.g., incorrect credentials or rate limits), check the response status code and message for more details.
 - **File Issues**: If the `rules.json` file is missing or not in a valid JSON format, ensure the file is generated correctly or provide a valid input file.
 
-## License
-This script is provided under the MIT License. You are free to modify, distribute, and use it for your purposes. However, it is provided as-is without any warranty.
+## Script
+You are free to modify, distribute, and use it for your purposes. However, it is provided as-is without any warranty.
