@@ -21,6 +21,7 @@ Before running the script, you need to set the following configuration variables
 3. `ruleset_id`: The specific ruleset ID that you wish to manage.
 4. `rule_id`: The rule ID that you are targeting for update operations (e.g., disabling specific rules).
 5. `CLOUDFLARE_EMAIL` and `CLOUDFLARE_API_KEY`: Your Cloudflare API credentials, set as environment variables for secure access.
+
 Find ruleset_id and rule_id in the dashboard Security > WAF > Managed Rules.
 Edit Cloudflare Managed Ruleset.
 Down below click on "Save with API call".
