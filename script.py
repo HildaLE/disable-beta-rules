@@ -6,7 +6,7 @@ import json
 zone_id = "your_zone_id" #found in cloudflare dashboard
 managed_ruleset_id = "efb7b8c949ac4650a09736fc376e9aee" #cloudflare managed ruleset id
 ruleset_id = "your_ruleset_id"
-rule_id = "your_rules_id"
+rule_id = "your_rule_id"
 api_email = os.getenv("CLOUDFLARE_EMAIL")  # Your Cloudflare email
 api_key = os.getenv("CLOUDFLARE_API_KEY")  # Your Cloudflare API key
 
