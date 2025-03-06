@@ -6,13 +6,13 @@ import json
 zone_id = "your_zone_id" #found in cloudflare dashboard
 managed_ruleset_id = "efb7b8c949ac4650a09736fc376e9aee" #cloudflare managed ruleset id
 ruleset_id = "your_ruleset_id"
-rule_id = "your_ruleset_id"
+rule_id = "your_rule_id"
 api_email = os.getenv("CLOUDFLARE_EMAIL")  # Your Cloudflare email
 api_key = os.getenv("CLOUDFLARE_API_KEY")  # Your Cloudflare API key
 
 def fetch_ruleset():
     # Cloudflare API URL to fetch the ruleset
-    base_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/rulesets/{managed_ruleset_id }"
+    base_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/rulesets/{managed_ruleset_id}"
 
     # Prepare headers
     headers = {
