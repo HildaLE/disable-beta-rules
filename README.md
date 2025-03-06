@@ -118,7 +118,7 @@ This repository contains two Python scripts to interact with Cloudflare's API. T
 ### Step 1: Fetch Cloudflare Zone Information
 Run the first script to collect Cloudflare zone, ruleset, and rule IDs:
 ```sh
-python get_info_per_zonr.py
+python3 get_info_per_zone.py
 ```
 This script:
 - Fetches all domains and their Zone IDs from your Cloudflare account.
@@ -128,7 +128,7 @@ This script:
 ### Step 2: Disable Beta Rules
 Run the second script to process and disable beta rules:
 ```sh
-python disable_beta_rules.py
+python3 disable_beta_rules.py
 ```
 This script:
 - Fetches the ruleset for each domain.
