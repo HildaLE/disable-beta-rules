@@ -5,7 +5,7 @@ import json
 # Cloudflare API credentials
 API_EMAIL = os.getenv("CLOUDFLARE_EMAIL")
 API_KEY = os.getenv("CLOUDFLARE_API_KEY")
-ACCOUNT_ID = "720830f01bb072055a3c0123fc3ba5a1" 
+ACCOUNT_ID = "your_account_id" 
 
 # Validate credentials
 if not API_EMAIL or not API_KEY or not ACCOUNT_ID:
