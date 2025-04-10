@@ -112,8 +112,9 @@ def extract_beta_ids(file_path, output_file):
         print(beta_ids)
 
         # Write the list of IDs to the output file
-        with open(output_file, "w") as output:
+        with open(output_file, "a") as output:
             json.dump(beta_ids, output)
+            output.write("\n")  # Separate entries with newline
         print(f"IDs have been written to {output_file}")
     else:
         print("No rules with 'beta' in categories were found.")
